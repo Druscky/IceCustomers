@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newContact">
+    <fragment
+        android:id="@+id/newContact"
+        android:name="com.example.icecustomers.Fragments.NewContact"
+        android:label="fragment_new_contact"
+        tools:layout="@layout/fragment_new_contact" />
+    <fragment
+        android:id="@+id/updateContact"
+        android:name="com.example.icecustomers.Fragments.UpdateContact"
+        android:label="fragment_update_contact"
+        tools:layout="@layout/fragment_update_contact" />
+    <fragment
+        android:id="@+id/deleteContact"
+        android:name="com.example.icecustomers.Fragments.DeleteContact"
+        android:label="fragment_delete_contact"
+        tools:layout="@layout/fragment_delete_contact" />
+    <fragment
+        android:id="@+id/listContact"
+        android:name="com.example.icecustomers.Fragments.ListContact"
+        android:label="fragment_list_contact"
+        tools:layout="@layout/fragment_list_contact" />
+</navigation>

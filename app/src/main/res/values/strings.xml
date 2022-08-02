@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IceCustomers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="btnInsert">GUARDAR</string>
+    <string name="btnModificar">MODIFICAR</string>
+    <string name="btnBorrar">BORRAR</string>
+    <string name="btnLista">VER LISTA</string>
+    <string name="et_ID">ID</string>
+    <string name="etName">Empresa</string>
+    <string name="etPhone">Teléfono</string>
+    <string name="etaddress">Dirección</string>
+    <string name="etOpening">Horario de Apertura</string>
+    <string name="tvNewContact">NUEVO CONTACTO</string>
+    <string name="btnAceptar">ACEPTAR</string>
+    <string name="btnAtrás">ATRÁS</string>
+    <string name="tvModificar">¿QUÉ EMPRESA QUIERE MODIFICAR?</string>
+    <string name="tvBorrar">¿QUÉ ID DE EMPRESA QUIERE BORRAR?</string>
+    <string name="tvName">EMPRESA</string>
+    <string name="tvAddress">DIRECCIÓN</string>
+    <string name="tvPhone">TELÉFONO</string>
+    <string name="tvOpening">HORARIO</string>
+    <string name="spSelection">Seleccione una Empresa</string>
+    <string name="tvDatosUpdate">Ponga los datos ya modificados</string>
+    <string name="tvAlertDialog">CUIDADO!!! ¿SEGURO QUE QUIERES BORRAR ESTA EMPRESA?</string>
+</resources>

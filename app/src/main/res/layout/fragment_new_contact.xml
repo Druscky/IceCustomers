@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LayNewContact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cake_blue"
+    tools:context=".Fragments.NewContact">
+
+    <TextView
+        android:id="@+id/tvNewContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="@string/tvNewContact"
+        android:textColor="@color/dark_gray"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNameNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/fondo_ingreso_datos"
+        android:ems="10"
+        android:hint="@string/etName"
+        android:inputType="textPersonName"
+        android:paddingStart="16dp"
+        android:textColor="@color/dark_gray"
+        android:textColorHint="@color/gray"
+        android:textSize="24sp"
+        android:tooltipText="@string/etName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNewContact" />
+
+    <EditText
+        android:id="@+id/etAddressNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/fondo_ingreso_datos"
+        android:ems="10"
+        android:hint="@string/etaddress"
+        android:inputType="textPersonName"
+        android:paddingStart="16dp"
+        android:textColor="@color/dark_gray"
+        android:textColorHint="@color/gray"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNameNew" />
+
+    <EditText
+        android:id="@+id/etPhoneNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/fondo_ingreso_datos"
+        android:ems="10"
+        android:hint="@string/etPhone"
+        android:inputType="phone"
+        android:paddingStart="16dp"
+        android:textColor="@color/dark_gray"
+        android:textColorHint="@color/gray"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddressNew" />
+
+    <EditText
+        android:id="@+id/etOpeningNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/fondo_ingreso_datos"
+        android:ems="10"
+        android:hint="@string/etOpening"
+        android:inputType="phone"
+        android:paddingStart="16dp"
+        android:textColor="@color/dark_gray"
+        android:textColorHint="@color/gray"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPhoneNew" />
+
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondo_ingreso_datos"
+        android:backgroundTint="@color/cake_blue"
+        android:text="@string/btnInsert"
+        android:theme="@style/Theme.QuerySQL.INSERT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etOpeningNew" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/base_hielo_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNew" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
